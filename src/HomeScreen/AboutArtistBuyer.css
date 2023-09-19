@@ -1,0 +1,62 @@
+
+.about-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.left-container{
+    display: grid;
+    text-align: right;
+    margin-right: 120px;
+}
+
+.read-more-btn{
+    width: 125px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right-container{
+    margin-left: 120px;
+    /* margin-right: 100px; */
+}
+
+.video-container{
+    width: 500px;
+    height: 350px;
+    filter: blur(5px);
+    margin-top: 30px;
+}
+
+.artist-container{
+    margin-left: 100px;
+    display: flex;
+}
+
+.child-container{
+    width: 500px;
+    height: 350px;
+    margin-top: 150px;
+}
+
+.artist-right-container{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.point{
+    display: flex;
+}
+
+.point-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 10px;
+}

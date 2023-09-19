@@ -1,0 +1,25 @@
+.supported-companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company{
+    display: grid;
+    /* margin-top: 30px; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-inline: 120px;
+}
+
+.company-icon{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.company-box{
+    height: 30px;
+    width: 100px;
+    background-color: gray;
+}
