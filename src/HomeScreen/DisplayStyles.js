@@ -6,30 +6,32 @@ import Ellipse17 from '../Images/Ellipse17.png';
 const DisplayStyles = () => {
 
   return (
-    <div style={{display: 'grid', marginLeft: 50}}>
-    <div style={{display: 'flex', marginTop: 40}}>
-      <div className="four-sided-circular-image">
-        <img
-        src = {Ellipse19}
-          alt="Your Image"
-        />
+
+      <div className="container mx-auto col-md-6">
+        <div className="d-flex">
+          <div className="circular-image">
+            <img
+            src = {Ellipse19}
+              alt="Your Image"
+            />
+          </div>
+          <div className="left-radius-box mb-2 mx-auto">
+            <h1 className="mt-3" style={{textAlign: 'right', fontFamily: 'GilroyBold'}}>Rhythm <br/>Revolution <br/>Rewards</h1>
+          </div>
+        </div>
+
+        <div className="d-flex">
+          <div className="right-radius-box mt-2 mx-auto">
+            <h1 className="mt-3" style={{textAlign: 'left', fontFamily: 'GilroyBold'}}>Join the <br/>Symphony of <br/>Talent</h1>
+          </div>
+          <div className="circular-image">
+            <img
+            src = {Ellipse17}
+              alt="Your Image"
+            />
+          </div>
+        </div>
       </div>
-      <div className="box1">
-        <p style={{marginTop: 0}}>Rhythm <br/>Revolution <br/>Rewards</p>
-      </div> 
-  </div>
-    <div style={{display: 'flex', marginTop: 40}}>
-    <div className="box2">
-      <p style={{marginTop: 0}}>Rhythm <br/>Revolution <br/>Rewards</p>
-    </div> 
-    <div className="four-sided-circular-image">
-      <img
-      src = {Ellipse17}
-        alt="Your Image"
-      />
-    </div>
-  </div>
-  </div>
   );
 };
 

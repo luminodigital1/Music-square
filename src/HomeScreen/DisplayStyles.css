@@ -1,71 +1,52 @@
 /* FourSidedCircularImage.css */
-.four-sided-circular-image {
-    width: 150px; /* Adjust the width and height as needed */
-    height: 150px;
-    position: relative;
+  .circular-image{
+    width: 200px;
+    height: 200px;
+    background-color: #ffe500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-    border-radius: 50%; /* Create a circular shape */
-  }
-  
-  .four-sided-circular-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: transparent;
-    clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
-  }
-  
-  .four-sided-circular-image::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: transparent;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-  }
-  
-  .four-sided-circular-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the entire shape */
-    background-color: yellow;
+    margin: 0 auto;
   }
 
-  .box1{
-    border: 2px solid black ;
-    height: 130px; 
-    margin-left: 10px;
-    font-size: xx-large;
-    font-weight: bold;
-    width: 250px;
-    text-align: right;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 50% 0 0 50%;
-    border-block-start-color: blue;
-    border-block-end-color: yellow;
-    border-left-color: blue;
-    border-right-color: yellow; 
+  .circular-image img {
+    max-width: 100%;
+    max-height: 100%;
   }
+
+.right-radius-box {
+  border-radius: 0% 47% 47% 0; /* Set left side radius to 50% */
+  width: 50%; /* Adjust the width as needed */
+  border:3px solid #0000;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to left, blue, yellow);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.left-radius-box {
+  /* position: relative; */
+  width: 50%;
   
-  .box2{
-    border: 2px solid black ;
-    height: 130px; 
-    margin-right: 10px;
-    font-size: xx-large;
-    font-weight: bold;
-    width: 250px;
-    text-align: left;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 0 50% 50% 0;
-    border-block-start-color: yellow;
-    border-block-end-color: blue;
-    border-left-color: yellow;
-    border-right-color: blue; 
-  }
+  border:3px solid #0000;
+  border-radius:47% 0 0 47%;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to right, blue, yellow);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+/* .left-radius-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 47% 0 0 47%; 
+  padding: 10px; 
+  background:linear-gradient(90deg,blue,yellow); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+} */

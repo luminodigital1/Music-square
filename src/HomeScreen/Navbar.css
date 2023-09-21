@@ -66,3 +66,7 @@ body {
 .active-nav-item {
   background-color: #FFE500; /* Set your desired background color */
 }
+
+div{
+  font-family: "GilroyLight";
+}

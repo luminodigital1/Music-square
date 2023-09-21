@@ -27,10 +27,16 @@
 }
 
 .video-container{
-    width: 500px;
-    height: 350px;
-    filter: blur(5px);
-    margin-top: 30px;
+    width: 120%;
+    /* height: 200%; */
+    /* filter: blur(5px); */
+    /* justify-items: center;
+    justify-content: center;
+    align-items: center; */
+    /* padding-left: 15%; */
+    padding-top: 5%;
+    margin-right: 50%;
+    /* margin-top: 30px; */
 }
 
 .artist-container{
@@ -39,9 +45,10 @@
 }
 
 .child-container{
-    width: 500px;
-    height: 350px;
-    margin-top: 150px;
+    width: 120%; 
+    /* height: 350px;
+    /* margin-top: 150px; */
+    margin-top: 10%;
 }
 
 .artist-right-container{
@@ -51,12 +58,15 @@
 }
 
 .point{
-    display: flex;
+    font-family: 'GilroyLight';
+    margin-top: 0;
+    margin-left: -3%;
 }
 
 .point-icon{
-    width: 30px;
-    height: 30px;
-    margin-top: 13px;
+    width: 20px;
+    height: 20px;
+    /* margin-top: 13px; */
     margin-right: 10px;
+    margin-left: -3%;
 }

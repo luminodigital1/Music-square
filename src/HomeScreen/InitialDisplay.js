@@ -5,8 +5,10 @@ import DisplayStyles from "./DisplayStyles";
 import { useState } from 'react';
 import SupportedCompanies from "./SupportedCompanies";
 import AboutArtistBuyer from "./AboutArtistBuyer";
+import ProfileList from './ProfileList';
 
 const InitialDisplay = () => {
+
     const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = (term) => {
@@ -15,14 +17,17 @@ const InitialDisplay = () => {
     return (
     <div>
       <Navbar/>
-      <SearchBar onSearch={handleSearch} />
-      {/* <div style={{display: 'flex'}}>
-        <SearchBar onSearch={handleSearch} />
-        <DisplayStyles/>
+      <div className="container">
+        <div className="row">
+          <SearchBar onSearch={handleSearch} />
+          <DisplayStyles/>
         </div>
-        <SupportedCompanies/>
-        <AboutArtistBuyer/> */}
+      </div>
+      <SupportedCompanies/>
+      <AboutArtistBuyer/>
+      <ProfileList/>
     </div>
+
     )
   }
   

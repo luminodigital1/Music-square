@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "GilroyLight";
+  src: local("GilroyLight"),
+    url("./Fonts/Gilroy-Light.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: local("GilroyExtraBold"),
+    url("./Fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: local("GilroyBold"),
+    url("./Fonts/FontsFree-Net-Gilroy-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
