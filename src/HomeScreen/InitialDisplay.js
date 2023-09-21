@@ -15,12 +15,13 @@ const InitialDisplay = () => {
     return (
     <div>
       <Navbar/>
-      <div style={{display: 'flex'}}>
+      <SearchBar onSearch={handleSearch} />
+      {/* <div style={{display: 'flex'}}>
         <SearchBar onSearch={handleSearch} />
         <DisplayStyles/>
         </div>
         <SupportedCompanies/>
-        <AboutArtistBuyer/>
+        <AboutArtistBuyer/> */}
     </div>
     )
   }

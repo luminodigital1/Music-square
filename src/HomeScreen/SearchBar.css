@@ -14,12 +14,12 @@
 
 .p1 {
     color: yellow;
-    font-weight: 600;
-    font-size: 24px;
+    /* font-weight: 600; */
+    /* font-size: 24px; */
 }
 
 .search-bar {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     /* background-color: #f0f0f0; */
     border: 1px solid #ccc;
