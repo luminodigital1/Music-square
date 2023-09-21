@@ -26,7 +26,7 @@ const SearchBar = ({ onSearch }) => {
                 <input className="form-control border-0"  
                   style={{borderColor: 'initial', boxShadow: 'none', color: '#889696'}}
                     type="text"
-                    placeholder="Search for any music service"
+                    placeholder="Search for any music service..."
                     onChange={handleSearch}
                 />
                 <div style={{height:30, width: 40}}>
