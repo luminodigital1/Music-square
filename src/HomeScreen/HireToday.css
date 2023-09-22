@@ -1,0 +1,19 @@
+/* CroppedImage.css */
+.cropped-image-container {
+    width: 120%; /* Set the desired width for the cropped image container */
+    height: 100%; /* Set the desired height for the cropped image container (60% of the original height) */
+    overflow: hidden;
+    /* filter: saturate(2); */
+  }
+  
+  .cropped-image {
+    margin-bottom: -70%;
+    z-index: 1;
+    /* filter:contrast(2); */
+    filter: sepia(100%) hue-rotate(190deg) saturate(900%) contrast(2);
+  }
+
+  .cropped-image-2 {
+    margin-top: -70%;
+    filter: hue-rotate(60deg) saturate(100%);
+  }

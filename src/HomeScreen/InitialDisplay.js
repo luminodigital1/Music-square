@@ -6,6 +6,9 @@ import { useState } from 'react';
 import SupportedCompanies from "./SupportedCompanies";
 import AboutArtistBuyer from "./AboutArtistBuyer";
 import ProfileList from './ProfileList';
+import VoicesFromPodium from './VoicesFromPodium';
+import HireToday from './HireToday';
+import GetStarted from "./GetStarted";
 
 const InitialDisplay = () => {
 
@@ -26,6 +29,9 @@ const InitialDisplay = () => {
       <SupportedCompanies/>
       <AboutArtistBuyer/>
       <ProfileList/>
+      <VoicesFromPodium/>
+      <HireToday/>
+      <GetStarted/>
     </div>
 
     )

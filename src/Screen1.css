@@ -6,13 +6,16 @@ p + p {
 
 .container-full{
     display: flex;
+    height: 100vh;
+
 }
 
 .containerLeft {
+  height: 100vh;
     background-color: yellow;
-    width: 90vh;
+    /* width: 90vh; */
     justify-content: center;
-    height: 200vh;
+    /* height: 200vh; */
   }
 
   .hignlight1 {
@@ -66,6 +69,7 @@ p + p {
 
   .containerRight{
     /* margin-left: 300px; */
+    /* padding: 0 6%; */
   }
 
   .button-container {

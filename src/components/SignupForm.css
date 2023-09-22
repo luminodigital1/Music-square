@@ -1,0 +1,41 @@
+.container-fluid  {
+    padding-top: 7%;
+}
+.form-group {
+    margin-top: 1rem;
+}
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+
+.btn {
+    height: 50px;
+}
+.btn-block {
+    margin-top: 2rem;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #D2D4C8;
+    margin: 0 10px;
+}
+
+.divider-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* You can adjust the text color as needed */
+}
