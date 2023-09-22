@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/SignupForm.css";
-import Logo from "../HomeScreen/Logo";
+import { Navigate, useNavigate } from 'react-router-dom';
+
 function SignupForm() {
+  const navigate = useNavigate();
+
+  const navigateToVerification = () => {
+    navigate('/verify'); // Navigate to the About page
+  };
+
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-    confirmPassword: "",
+    email: "abc@gmail.com",
+    password: "123",
+    confirmPassword: "123",
   });
 
   const handleChange = (e) => {
@@ -24,58 +31,15 @@ function SignupForm() {
   };
 
   return (
-    <div className="container-fluid ">
       <div className="row justify-content-center">
-        <div className="col-md-10">
-        <Logo></Logo>
-
-          <button
-            className="btn"
-            style={{
-              backgroundColor: "white",
-              borderColor: "#D2D4C8",
-              color: "#000",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "10px 20px",
-              width: "100%",
-              marginBottom: 10,
-              fontWeight: "bold",
-            }}
-          >
-            <i className="fab fa-google" style={{ marginRight: "10px" }}></i>
-            Continue with Google
-          </button>
-          <button
-            className="btn"
-            style={{
-              backgroundColor: "#1127E3",
-              color: "white",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "10px 20px",
-              width: "100%",
-              fontWeight: "bold",
-              marginBottom: 10,
-            }}
-          >
-            <i className="fas fa-wallet" style={{ marginRight: "10px" }}></i>
-            Connect with Wallet
-          </button>
-
-          <div class="divider-container">
-            <div class="divider-line"></div>
-            <div class="divider-text">OR</div>
-            <div class="divider-line"></div>
-          </div>
+        <div className="col-md-12">
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
+              <label htmlFor="email">Email Address</label>
+              <input style={{outline: 'none'}}
                 type="email"
                 className="form-control"
+                placeholder="Enter your mail"
                 id="email"
                 name="email"
                 value={formData.email}
@@ -88,6 +52,7 @@ function SignupForm() {
               <input
                 type="password"
                 className="form-control"
+                placeholder="Enter your password"
                 id="password"
                 name="password"
                 value={formData.password}
@@ -100,6 +65,7 @@ function SignupForm() {
               <input
                 type="password"
                 className="form-control"
+                placeholder="Re-enter your password"
                 id="confirmPassword"
                 name="confirmPassword"
                 value={formData.confirmPassword}
@@ -110,12 +76,13 @@ function SignupForm() {
             <div className="form-group form-check">
               <input
                 type="checkbox"
+                checked
                 className="form-check-input"
                 id="agreeTerms"
                 name="agreeTerms"
-                checked={formData.agreeTerms}
+                // checked={formData.agreeTerms}
                 onChange={handleChange}
-                style={{ backgroundColor: "#FFFF00" }} // Set the checkbox background color
+                style={{ backgroundColor: "#ffe500" }} // Set the checkbox background color
               />
               <label className="form-check-label" htmlFor="agreeTerms">
                 I agree with terms and conditions
@@ -124,8 +91,9 @@ function SignupForm() {
             <button
               type="submit"
               className="btn btn-primary btn-block"
+              onClick={navigateToVerification}
               style={{
-                backgroundColor: "#FFFF00",
+                backgroundColor: "#ffe500",
                 color: "black",
                 width: "100%",
                 border:'none',
@@ -135,9 +103,13 @@ function SignupForm() {
               Sign Up
             </button>
           </form>
+          <div className="d-flex justify-content-center align-items-center">
+          <p style={{marginTop: 20}}>Already have an account?</p>
+          <a href="">Log In</a>
+          </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

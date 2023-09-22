@@ -3,38 +3,60 @@ p + p {
     margin-bottom: 0;
   }
 
+.right-side{
+    display: grid;
+    margin-left: 10%;
+}
+
 .code-title{
-    margin-left: 250px;
+    /* margin-left: 250px;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; */
+    font-family: 'GilroyBold';
+    margin-top: 10%;
+    margin-left: 2%;
 }
 
 .code-desc{
-    margin-left: 250px;
+    /* margin-left: 250px; */
     font-size: 16px;
     color: gray;
+    font-family: 'GilroyLight';
+    margin-left: 2%;
 }
 
 .code{
-    display: flex;
-    margin-left: 240px;
-    margin-top: 30px;
+    /* display: flex; */
+    /* margin-left: 240px; */
+    margin-top: 20px;
 }
 
 .digit{
     border: 1px solid #ccc;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: 0 10px;
     border-radius: 4px;
     text-align: center;
 }
 
+.digit:focus{
+    outline: green;
+}
+
+.resend-code{
+    color: gray;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
 .verify-button{
-    background-color: yellow;
-    margin-left: 250px;
-    width: 300px;
-    padding: 20px 20px;
+    background-color: #ffe500;
+    /* margin-left: 250px; */
+    /* width: 300px; */
+    padding: 10px 10px;
     border: none;
     border-radius: 4px;
+    margin-top: 10%;
+    margin-left: 2%;
 }
