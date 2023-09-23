@@ -9,7 +9,7 @@ import './AboutArtistBuyer.css';
 const GetStarted = () => {
 
   return (
-    <div className="container pt-5">
+    <div className="container pt-5 getstarted">
         <h2 style={{fontFamily: 'GilroyBold', marginBottom:20}}>How to get started on Music Square</h2>
         <div className="d-flex">
             <div className="col-md-4">
@@ -55,7 +55,7 @@ const GetStarted = () => {
             </div> */}
 
         </div>
-        <div className="d-flex pt-3">
+        <div className="d-flex pt-1">
             <div className="col-md-4">
                 <button className="read-more-btn" type='submit'> Read more</button>
             </div>

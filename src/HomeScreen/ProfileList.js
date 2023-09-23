@@ -24,8 +24,8 @@ const ProfileList = ({ imageUrl }) => {
   ];
 
   return (
-<div className="container pt-5">
-    <div className="d-flex col-md-12 offset-md-1" style={{textAlign: 'right', justifyContent: 'right',marginRight:0}}>
+<div className="container viewall">
+    <div className="d-flex col-md-12 offset-md-1" style={{textAlign: 'right', justifyContent: 'right',marginRight:0, marginBottom: 20}}>
         <a href='#'>View all</a>
         <img style={{height:20,width: 20}} src={arrowLeft} alt="" onClick={moveLeft}/>
         <img style={{height:20,width: 20}} src={arrowRight} alt="" onClick={moveRight}/>
@@ -33,6 +33,7 @@ const ProfileList = ({ imageUrl }) => {
     <div className="container">
     <div className="row horizontal-scroll-container horizontal-scroll" 
     style={{ transform: `translateX(${position * -100}%)` }}>
+            <Profile/>
             <Profile/>
             <Profile/>
             <Profile/>

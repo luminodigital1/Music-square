@@ -50,7 +50,7 @@ const SupportedCompanies = () => {
           </div>
         </div>
 
-        <div className="d-flex mt-5">
+        <div className="d-flex mt-2">
         <div className="company mr-3 pr-5">
            <img className='company-icon'
             src = {solana}

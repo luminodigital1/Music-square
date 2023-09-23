@@ -14,8 +14,8 @@ const VoicesFromPodium = () => {
              musician job marketplace connecting talented musicians and satisfied clients. 
              Valuable user feedback drives continuous improvements, while strategic 
              collaborations expand our reach. We prioritize data security and remain 
-             dedicated to growth, innovation, and positive social impact.</p><br/>
-             <p style={{fontFamily: 'GilroyLight'}}>Sean Kim, CEO StreamiFi</p>
+             dedicated to growth, innovation, and positive social impact.</p>
+             <p style={{fontFamily: 'GilroyLight', marginBottom: 5}}>Sean Kim, CEO StreamiFi</p>
              <img src={ceo} alt=""/>
           </div>
         </div>

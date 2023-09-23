@@ -12,7 +12,7 @@ const HireToday = () => {
       }
 
   return (
-    <div className="p-5">
+    <div className="p-5 mt-5">
       <div className="container d-flex">
         <div className="row col-md-6">
           <div className="col-md-10">

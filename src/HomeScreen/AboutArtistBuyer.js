@@ -100,7 +100,7 @@ const AboutArtistBuyer = () => {
     // </div>
 
     <div className="container pt-5 mt-5">
-      <div className="d-flex">
+      <div className="d-flex about">
         <div className="row col-md-6">
           <div className="col-md-10">
           <p className="fs-5 " style={{color: '#ffe500', fontFamily:'GilroyBold', marginBottom: 0}}>About</p>
@@ -117,12 +117,12 @@ const AboutArtistBuyer = () => {
                    on the pillars of transparency, security, and fair compensation, giving musicians 
                    the confidence they deserve in their creative journey.
             </p>
-            <button className="read-more-btn" onClick={handleClick} type='submit'> Read more</button>
+            <button className="read-more-btn mt-2" onClick={handleClick} type='submit'> Read more</button>
             </div>
         </div>
 
         <div className="col-md-6 p-4">
-          <div className="col-md-11 ">
+          <div className="col-md-11">
             <div className="d-flex">
               <img className="video-container"
                   src = {video}
@@ -133,7 +133,7 @@ const AboutArtistBuyer = () => {
         </div>
       </div>
 
-      <div className="d-flex pt-5">
+      <div className="d-flex pt-5 artist">
       <div className="col-md-6">
             <div className="col-md-10">
               <img className="child-container"
@@ -145,7 +145,7 @@ const AboutArtistBuyer = () => {
         <div className="row col-md-6" style={{marginLeft: 30}}>
           <div className="col-md-12">
             <p className="fs-5 " style={{color: '#ffe500', fontFamily:'GilroyBold', marginBottom: 0}}>For Artists</p>
-            <h2 style={{fontFamily:'GilroyBold', marginBottom:30}}>Reason you should
+            <h2 style={{fontFamily:'GilroyBold', marginBottom:20}}>Reason you should
                <br/>choose Music Square</h2>
             <div className="container">
               <div className="d-flex">
@@ -174,7 +174,7 @@ const AboutArtistBuyer = () => {
               where creativity, innovation, and passion converge.</p>
             </div>
             <button className='read-more-btn' onClick={handleClick} type='submit'
-               style={{marginTop:8}}>
+               >
                   Get Started</button>
           </div>
         </div>
