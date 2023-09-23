@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-// import './SearchBar.css';
+import './SearchBar.css';
 import search from '../Images/search.png';
 
 const SearchBar = ({ onSearch }) => {
@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch }) => {
   return (
     // <div className="container">
       // <div className="row">
-          <div className="container col-md-6 mx-auto">
+          <div className="container col-md-6 mx-auto search-container">
             <p className="mb-0 fs-4 mt-5" style={{color: '#FFE500', fontFamily: 'GilroyBold'}}>Welcome to</p>
             <h1 className="fw-bold" style={{fontSize: 50, fontFamily: 'GilroyExtraBold'}}>Music Square</h1>
             <p className="mb-5">Enpowering Musicians Worldwide with Blockchain Brillaince</p>
@@ -36,9 +36,8 @@ const SearchBar = ({ onSearch }) => {
                 </div>
             </div>
 
-          <div class="btn-toolbar mt-3">
-            <p className=""
-            style={{marginRight: 20, fontFamily: 'GilroyBold'}}
+          <div class="btn-toolbar mt-3 d-flex">
+            <p className="popular"
             >Popular:    </p>
             <button type="button" class="btn btn-primary btn-sm rounded bg-transparent border
             d-flex align-items-center"

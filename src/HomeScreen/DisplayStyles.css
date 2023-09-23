@@ -1,5 +1,9 @@
 /* FourSidedCircularImage.css */
-  .circular-image{
+.display{
+ padding-left: 110px;
+}
+
+  .circular-image1{
     width: 200px;
     height: 200px;
     background-color: #ffe500;
@@ -7,8 +11,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 auto;
+    /* margin-left: 50px; */
+  }
+
+  .circular-image2{
+    width: 200px;
+    height: 200px;
+    background-color: #ffe500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    /* margin-right: -15px; */
+    /* margin-left: -10px; */ 
   }
 
   .circular-image img {
@@ -24,6 +43,7 @@
                     linear-gradient(to left, blue, yellow);
   background-origin: border-box;
   background-clip: content-box, border-box;
+  margin-left: 50px;
 }
 
 .left-radius-box {
@@ -37,16 +57,11 @@
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
-/* .left-radius-box::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 47% 0 0 47%; 
-  padding: 10px; 
-  background:linear-gradient(90deg,blue,yellow); 
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude; 
-} */
+
+.right-box{
+  /* margin-left: 50px; */
+}
+
+.top-block{
+  padding-inline: 0;
+}

@@ -18,13 +18,11 @@ const InitialDisplay = () => {
     setSearchTerm(term);};
     
     return (
-    <div>
+    <div style={{overflowX: 'hidden'}}>
       <Navbar/>
-      <div className="container">
-        <div className="row">
+      <div className="row">
           <SearchBar onSearch={handleSearch} />
           <DisplayStyles/>
-        </div>
       </div>
       <SupportedCompanies/>
       <AboutArtistBuyer/>

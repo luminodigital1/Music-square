@@ -3,6 +3,7 @@ import "../Screen1.css"; // Import your CSS or use inline styles
 import Logo from "../HomeScreen/Logo";
 import "./ProfileSetup.css";
 import dropdown from "../Images/dropdown.png";
+import { Dropdown } from "bootstrap";
 
 function ProfileSetup() {
     // const navigate = useNavigate();
@@ -10,6 +11,20 @@ function ProfileSetup() {
     //  const navigateToVerification = () => {
     //    navigate('/verify'); // Navigate to the About page
     // };
+
+  const [selectedTz, setSelectedTz] = useState('');
+  const [selectedPl, setSelectedPl] = useState('');
+  const [selectedSl, setSelectedSl] = useState('');
+
+  const handleSelectTzChange = (event) => {
+    setSelectedTz(event.target.value);
+  };
+  const handleSelectPlChange = (event) => {
+    setSelectedPl(event.target.value);
+  };
+  const handleSelectSlChange = (event) => {
+    setSelectedSl(event.target.value);
+  };
 
   const [formData, setFormData] = useState({
     name : "",
@@ -98,8 +113,9 @@ function ProfileSetup() {
                             // placeholder="Enter your password"
                             id="timezone"
                             name="timezone"
-                            value={formData.timeZone}
-                            onChange={handleChange}
+                            // value={formData.timeZone}
+                            value={selectedTz}
+                            onChange={handleSelectTzChange}
                             // required
                             
                         >
@@ -109,6 +125,7 @@ function ProfileSetup() {
                             <option value="Time Zone 4">Time Zone 4</option>
                             <option value="Time Zone 5">Time Zone 5</option>
                         </select>
+                        
                         </div>
                         <div className="form-group">
                         <label htmlFor="bio">Bio</label>
@@ -125,14 +142,14 @@ function ProfileSetup() {
                         />
                         </div>
                         <div className="form-group">
-                        <label htmlFor="timeZome">Primary Language</label>
+                        <label htmlFor="PrimaryLang">Primary Language</label>
                         <select
                             className="form-control"
                             // placeholder="Enter your password"
                             id="prmLang"
                             name="prmLang"
-                            value={formData.prmLang}
-                            onChange={handleChange}
+                            value={selectedPl}
+                            onChange={handleSelectPlChange}
                             // required
                             
                         >
@@ -143,14 +160,14 @@ function ProfileSetup() {
                         </div>
 
                         <div className="form-group">
-                        <label htmlFor="timeZome">Secondary Language</label>
+                        <label htmlFor="secLang">Secondary Language</label>
                         <select
                             className="form-control"
                             // placeholder="Enter your password"
                             id="seclang"
                             name="seclang"
-                            value={formData.secLang}
-                            onChange={handleChange}
+                            value={selectedSl}
+                            onChange={handleSelectSlChange}
                             // required
                             
                         >
@@ -160,16 +177,16 @@ function ProfileSetup() {
                         </select>
                         </div>
 
-                        <div className="d-flex btn-block">
-                            <button className="btn btn-primary back">
+                        
+                    </form>
+                    <div className="d-flex btn-block">
+                            <button className="btn back">
                                 Back
                             </button>
                             <button className="btn btn-primary next">
                                 Next
                             </button>
                         </div>
-                    </form>
-                    
                 </div>
               </div>
             </div>
