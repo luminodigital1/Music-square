@@ -103,3 +103,8 @@ input{
     transform: translateY(-50%);
     pointer-events: none;
   }
+
+  .heading{
+    font-family: "GilroyBold";
+    
+  }

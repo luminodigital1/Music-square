@@ -3,14 +3,18 @@ import "../Screen1.css"; // Import your CSS or use inline styles
 import Logo from "../HomeScreen/Logo";
 import "./ProfileSetup.css";
 import dropdown from "../Images/dropdown.png";
-import { Dropdown } from "bootstrap";
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function ProfileSetup() {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    //  const navigateToVerification = () => {
-    //    navigate('/verify'); // Navigate to the About page
-    // };
+     const navigateToPS2 = () => {
+       navigate('/profilesetup2'); // Navigate to the About page
+    };
+
+    const navigateToVerify = () => {
+      navigate('/verify'); // Navigate to the About page
+   };
 
   const [selectedTz, setSelectedTz] = useState('');
   const [selectedPl, setSelectedPl] = useState('');
@@ -47,6 +51,8 @@ function ProfileSetup() {
     // You can add your signup logic here, e.g., send the data to an API
     console.log(formData);
   };
+
+  
   
   return (
 
@@ -183,10 +189,10 @@ function ProfileSetup() {
                         
                     </form>
                     <div className="d-flex button-margin">
-                            <button className="back">
+                            <button className="back" onClick={navigateToVerify}>
                                 Back
                             </button>
-                            <button className="next">
+                            <button className="next" onClick={navigateToPS2}>
                                 Next
                             </button>
                         </div>

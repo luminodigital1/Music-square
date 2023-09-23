@@ -1,0 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+
+.add-skill{
+    /* justify-content: right; */
+    margin-top: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'GilroyLight';
+    font-size: 12px;
+    width: 30%;
+    margin-left: 310px;
+    /* padding-inline: 2%; */
+}
+
+.add-circle{
+    margin-right: 5px;
+}
