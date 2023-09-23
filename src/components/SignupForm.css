@@ -11,15 +11,18 @@
     font-size: 15px;
 }
 
-.btn {
+.sup{
+    overflow-x: hidden;
+}
+
+/* .btn {
     height: 50px;
 }
 .btn-block {
-    /* margin-top: 2rem; */
     height: 50px;
     font-weight: bold;
     font-size: 16px;
-}
+} */
 
 input{
     /* outline-color: green; */

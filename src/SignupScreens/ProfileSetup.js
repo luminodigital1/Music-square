@@ -119,6 +119,7 @@ function ProfileSetup() {
                             // required
                             
                         >
+                            <option value="Select Time Zone" >Select Time Zone</option>
                             <option value="Pakistan (GMT+5)">Pakistan (GMT+5)</option>
                             <option value="Time Zone 2">Time Zone 2</option>
                             <option value="Time Zone 3">Time Zone 3</option>
@@ -153,6 +154,7 @@ function ProfileSetup() {
                             // required
                             
                         >
+                            <option value="Select Primary Language" >Select Primary Language</option>
                             <option value="English">English</option>
                             <option value="Urdu">Urdu</option>
                             <option value="Arabic">Arabic</option>
@@ -171,6 +173,7 @@ function ProfileSetup() {
                             // required
                             
                         >
+                            <option value="Select Secondary Language" >Select Secondary Language</option>
                             <option value="English">English</option>
                             <option value="Urdu">Urdu</option>
                             <option value="Arabic">Arabic</option>
@@ -179,11 +182,11 @@ function ProfileSetup() {
 
                         
                     </form>
-                    <div className="d-flex btn-block">
-                            <button className="btn back">
+                    <div className="d-flex button-margin">
+                            <button className="back">
                                 Back
                             </button>
-                            <button className="btn btn-primary next">
+                            <button className="next">
                                 Next
                             </button>
                         </div>

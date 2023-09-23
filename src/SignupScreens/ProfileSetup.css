@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .container-fluid  {
     /* padding-top: 7%; */
 }
@@ -11,24 +14,48 @@
     font-size: 15px;
 }
 
-.btn {
-    /* border: 1px solid black;
-    width : 50%;
-    border-radius: 4%; */
+.form-group input{
+    font-family: 'GilroyLight';
 }
-.btn-block {
-    margin-top: 2rem;
-    height: 30px;
-    font-weight: bold;
-    font-size: 16px;
+
+.form-group select{
+    font-family: 'GilroyLight';
+}
+
+.form-group option{
+    font-family: 'GilroyLight';
+}
+
+.btn {
+    
+}
+.button-margin {
+    margin-top: -20px;
 }
 
 .back{
-    width : 50%;
-    margin-right: 5%;
-    /* background : none; */
-    border-color: 1 px black;
+    /* margin-left: 250px; */
+    /* width: 300px; */
+    padding: 10px 10px;
     border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 50%;
+    background-color: transparent;
+    /* margin-right: 30px; */
+    margin-left: -1px;
+
+}
+
+.next{
+    background-color: #fee500;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 50%;
 }
 
 /* .back:focus{

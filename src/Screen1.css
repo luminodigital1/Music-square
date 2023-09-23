@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 p + p {
     margin-top: 0;
     margin-bottom: 0;
@@ -134,4 +136,9 @@ p + p {
     margin: 0 10px; /* Add space between text and lines */
     color: #ccc;
     font-family: 'GilroyLight';
+    margin-top: 8px;
+  }
+
+  .sc1{
+    overflow-x: hidden;
   }

@@ -31,7 +31,7 @@ function SignupForm() {
   };
 
   return (
-      <div className="row justify-content-center">
+      <div className="row justify-content-center sup" >
         <div className="col-md-12">
           <form onSubmit={handleSubmit}>
             <div className="form-group">
@@ -93,11 +93,16 @@ function SignupForm() {
               className="btn btn-primary btn-block"
               onClick={navigateToVerification}
               style={{
-                backgroundColor: "#ffe500",
-                color: "black",
-                width: "100%",
-                border:'none',
-                fontWeight:'bold'
+                backgroundColor: '#ffe500',
+                /* margin-left: 250px; */
+                width: 400,
+                height: 40,
+                // padding: 10,
+                border: 'none',
+                color: 'black',
+                borderRadius: 4,
+                marginTop: 10,
+                marginLeft: 2,
               }}
             >
               Sign Up
