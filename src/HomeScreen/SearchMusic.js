@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch }) => {
   return (
     // <div className="container">
       // <div className="row">
-          <div className="container col-md-6 mx-auto search-container">
+          <div className="col-md-4 mx-auto search-container">
             <p className="mb-0 fs-4 mt-5" style={{color: '#FFE500', fontFamily: 'GilroyBold'}}>Welcome to</p>
             <h1 className="fw-bold" style={{fontSize: 50, fontFamily: 'GilroyExtraBold'}}>Music Square</h1>
             <p className="mb-5">Enpowering Musicians Worldwide with Blockchain Brillaince</p>
