@@ -60,48 +60,53 @@ function ProfileSetup3() {
         style={{marginTop:100}}>
           <div className="col-md-12">
             <div className="d-flex justify-content-center align-items-center"
-            style={{marginLeft: -60}}>
+            style={{marginRight: 70}}
+            >
               <Logo/>
             </div>
               <div style={{display: "grid", marginTop: 50}}>
               < div className="row justify-content-center">
-                <div className="col-md-10 offset-md-4">                  
+                <div className="col-md-10 offset-md-3">                  
                     <div className="d-flex align-items-center">
-                        <img className="col-md-2 connect-icon" src={favicon} alt=""
+                        <img className="connect-icon" src={favicon} alt=""
                         style={{marginTop: -15}}/>
                         <p className="col-md-5 connect-title">Play On Music Protocol</p>
-                        <button className="connect-btn" type="submit">Connect</button>
+                        <button className="connect-btn" type="submit" 
+                        style={{width:160}}
+                        >Connect</button>
                     </div>
                     <div className="d-flex">
-                        <img className="col-md-2 connect-icon" src={x} alt=""/>
+                        <img className="connect-icon" src={x} alt=""/>
                         <p className="col-md-5 connect-title">X</p>
-                        <button className="col-md-3 connect-btn" type="submit">Disconnect</button>
+                        <button className="col-md-3 disconnect" type="submit"
+                        >Disconnect</button>
                     </div>
                     <div className="d-flex">
-                        <img className="col-md-2 connect-icon" 
+                        <img className="connect-icon" 
                         style={{backgroundColor: "blue"}} src={telegram} alt=""/>
                         <p className="col-md-5 connect-title"
                         >Telegram</p>
-                        <button className="col-md-3 connect-btn" type="submit">Disconnect</button>
+                        <button className="col-md-3 disconnect" type="submit">Disconnect</button>
                     </div>
                     <div className="d-flex">
-                        <img className="col-md-2 connect-icon" 
+                        <img className="connect-icon" 
                         style={{backgroundColor: "darkblue"}} src={discord} alt=""/>
                         <p className="col-md-5 connect-title">Discord</p>
-                        <button className="col-md-3 connect-btn" type="submit">Disconnect</button>
+                        <button className="col-md-3 disconnect" type="submit">Disconnect</button>
                     </div>
-                    <div className="d-flex button-margin">
+                    <div className="d-flex button-margin ">
                             <button className="col-md-4 back" onClick={navigateToPS2}
                             style={{
-                                width: 190,
-                                height: 40
+                                width: 220,
+                                height: 40,
                             }}>
                                 Back
                             </button>
                             <button className="col-md-4 next"
                             style={{
-                                width: 190,
-                                height: 40
+                                width: 220,
+                                height: 40, 
+                                marginRight: 10
                             }}
                             >
                                 Let's Start

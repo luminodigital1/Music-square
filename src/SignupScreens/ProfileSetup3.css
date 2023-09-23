@@ -18,7 +18,17 @@
     border: transparent;
     background-color: #fee500;
     height: 30px;
-    width: 100px;
+    /* width: 100px; */
+    font-family: 'GilroyLight';
+    font-size: 13px;
+}
+
+.disconnect{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    height: 30px;
+    /* width: 100px; */
     font-family: 'GilroyLight';
     font-size: 13px;
 }
