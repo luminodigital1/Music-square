@@ -1,0 +1,98 @@
+.post-container{
+    background-color: white;
+    width: 40%;
+}
+
+.top-portion{
+    margin-top: 3%; 
+}
+
+.post-name{
+    font-family: 'GilroyBold';
+    margin-left: 5px;
+    /* padding-bottom: -2px; */
+}
+
+.post-area{
+    font-family: 'GilroyLight';
+    margin-top: -10px;
+    font-size: 14px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.dot{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.post-time{
+    font-family: 'GilroyLight';
+    margin-left: 10px;
+    color: grey;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.postbtn{
+    width: 80px;
+    height: 30px;
+    font-family: 'GilroyLight';
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 5px;
+    /* margin-left: 20px; */
+    /* margin-right: -10px; */
+}
+
+.morebtn{
+    /* margin-top: 2px; */
+    /* margin-left: 35px; */
+    /* margin-right: -80px; */
+    /* margin-right: -40px; */
+}
+
+.postimg-container{
+    width: 100%; /* Ensure the container takes up the full width of its parent */
+    max-width: 600px;
+    margin-top: 15px;
+}
+
+.post-img{
+    max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove extra spacing around the image */
+  margin: 0 auto
+}
+
+.hirebtn{
+    margin-left: 320px;
+    border: none;
+    background-color: #fee500;
+    font-family: 'GilroyLight';
+    width: 320px;
+    height: 35px;
+    /* height: 50px; */
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.postdesp{
+    font-family: 'GilroyLight';
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    font-family: 'GilroyLight';
+}

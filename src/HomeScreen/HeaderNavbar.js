@@ -25,7 +25,8 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
           <li className={`nav-item ${activeNavItem === "Home" ? "active-nav-item" : ""}`}>
-              <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("Home")}>Home</a>
+          <Link className="nav-link" to="/homepage1" onClick={() => handleNavItemClick("Home")}>Home</Link>
+              {/* <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("Home")}>Home</a> */}
             </li>
             <li className={`nav-item ${activeNavItem === "Community" ? "active-nav-item" : ""}`}>
               <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("Community")}>Community <span className="sr-only"></span></a>

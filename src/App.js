@@ -6,6 +6,7 @@ import Screen2 from './SignupScreens/Screen2';
 import ProfileSetup from './SignupScreens/ProfileSetup';
 import ProfileSetup2 from './SignupScreens/ProfileSetup2';
 import ProfileSetup3 from './SignupScreens/ProfileSetup3';
+import Homepage1 from './components/Homepage1';
 
 function App() {
   return(
@@ -17,6 +18,7 @@ function App() {
         <Route path='/profilesetup' element={<ProfileSetup/>}/>
         <Route path='/profilesetup2' element={<ProfileSetup2/>}/>
         <Route path='/profilesetup3' element={<ProfileSetup3/>}/>
+        <Route path='/homepage1' element={<Homepage1/>}/>
       </Routes>
     </Router>
   );
