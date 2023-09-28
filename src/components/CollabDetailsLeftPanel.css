@@ -1,0 +1,16 @@
+.cdlp-heading{
+    margin-top: 10px;
+    font-family: 'GilroyBold';
+}
+
+.grey-box{
+    height: 150px;
+    width: 150px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: #ccc;
+}
+
+.arrow-style{
+    margin-top: 75px;
+}

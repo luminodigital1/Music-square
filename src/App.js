@@ -7,6 +7,9 @@ import ProfileSetup from './SignupScreens/ProfileSetup';
 import ProfileSetup2 from './SignupScreens/ProfileSetup2';
 import ProfileSetup3 from './SignupScreens/ProfileSetup3';
 import Homepage1 from './components/Homepage1';
+import Homepage2 from './components/Homepage2';
+import FindCollab from './components/FindCollab';
+import CollabDetails from './components/CollabDetails';
 
 function App() {
   return(
@@ -19,6 +22,9 @@ function App() {
         <Route path='/profilesetup2' element={<ProfileSetup2/>}/>
         <Route path='/profilesetup3' element={<ProfileSetup3/>}/>
         <Route path='/homepage1' element={<Homepage1/>}/>
+        <Route path='/homepage2' element={<Homepage2/>}/>
+        <Route path='/findcollab' element={<FindCollab/>}/>
+        <Route path='/collabdetails' element={<CollabDetails/>}/>
       </Routes>
     </Router>
   );

@@ -1,0 +1,13 @@
+.volbar::-webkit-slider-thumb{
+    background-color: '#fee500';
+    accent-color: '#fee500';
+    outline: yellow;
+    background: yellow;
+}
+
+.volbar::-moz-range-thumb{
+    background-color: '#fee500';
+    accent-color: '#fee500';
+    outline: yellow;
+    background: yellow;
+}

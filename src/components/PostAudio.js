@@ -6,6 +6,8 @@ import pic1 from '../Images/pic1.png';
 import heart from '../Images/heart.png';
 import send2 from '../Images/send-2.png';
 import message2 from '../Images/messages-2.png';
+import dummyaudio from '../Images/dummyaudio.mp3'
+import AudioWave from "./AudioWave";
 
 const PostAudio = (props) => {
     
@@ -26,7 +28,7 @@ const PostAudio = (props) => {
                 </div>
             </div>
             <div className="postimg-container">
-                <img className="post-img" src={pic1} alt=""/>
+                <AudioWave  audio ={dummyaudio}/>
             </div>
             <div className="d-flex pt-3">
                 <img style={{marginRight: 20}} src={heart} alt="" height="25"/>

@@ -1,0 +1,50 @@
+.person-name{
+    font-family: 'GilroyBold';
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.person-info{
+    color: #717171;
+    font-family: 'GilroyLight';
+    margin-bottom: 5px;
+}
+
+.v-line{
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.contact-btn{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 232px;
+    height: 45px;
+    font-family: 'GilroyLight';
+    background-color: white;
+}
+
+.more-option{
+    border: 1px solid #D2D4C8;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.left-cell{
+    text-align: left;
+    font-family: 'GilroyLight';
+}
+
+.right-cell{
+    text-align: right;
+    font-family: 'GilroyBold';
+}
+
+.memberssince{
+    font-family: 'GilroyBold';
+    margin-top: 20px;
+}

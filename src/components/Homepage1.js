@@ -2,7 +2,13 @@ import React from "react";
 import HomepageNavBar from "./HomepageNavBar";
 import HomepageSearchbar from './HomepageSearchbar';
 import pp1 from '../Images/pp1.png';
+import ceo from '../Images/CEO.png';
+import video from '../Images/video.png';
+import pp3 from '../Images/pp3.png';
 import PostPic from "./PostPic";
+import PostAudio from "./PostAudio";
+import dummyaudio from '../Images/dummyaudio.mp3';
+import AudioWave from "./AudioWave";
 
 const Homepage1 = () => {
     // const profilepic = {pp1};
@@ -11,6 +17,18 @@ const Homepage1 = () => {
     const country ='Pakistan';
     const time = '1 hr ago';
     const category = 'Post';
+
+    const name2 = 'Sean Kim';
+    const city2 = 'Seoul';
+    const country2 ='South Korea';
+    const time2 = '1 hr ago';
+    const category2 = 'Collab';
+
+    const name3 = 'Asad Ali Akbar';
+    const city3 = 'Sargodha';
+    const country3 ='Pakistan';
+    const time3 = '1 hr ago';
+    const category3 = 'Post';
     
     return (
     <div style={{overflowX: 'hidden'}}>
@@ -19,6 +37,10 @@ const Homepage1 = () => {
       <div style={{backgroundColor: '#e8eaed', paddingTop: 20, marginTop:30, paddingBottom: 20}}>
         <PostPic  profilepicprop = {pp1} nameprop = {name} 
         cityprop ={city} countryprop ={country} timeprop= {time} categoryprop= {category}/>
+        <PostAudio  profilepicprop = {ceo} nameprop = {name2} 
+        cityprop ={city2} countryprop ={country2} timeprop= {time2} categoryprop= {category2}/>
+        <PostPic  profilepicprop = {pp3} nameprop = {name3} 
+        cityprop ={city3} countryprop ={country3} timeprop= {time3} categoryprop= {category3}/>
       </div>
     </div>
 
