@@ -1,0 +1,16 @@
+.notify-container{
+    width: 400px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    /* height: 90px; */
+}
+
+.nf-txt{
+    font-family: 'GilroyBold';
+    margin-bottom: 0;
+}
+
+.nf-time{
+    color: #717171;
+    font-family: 'GilroyLight';
+}

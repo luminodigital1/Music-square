@@ -1,0 +1,16 @@
+.tag-title{
+    margin-right: 5px;
+    font-family: 'GilroyBold';
+}
+
+.select-opt{
+    color: #717171;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    font-family: 'GilroyLight';
+    height: 40px;
+    width: 75px;
+}
