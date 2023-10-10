@@ -3,15 +3,11 @@ import HomepageNavBar from "./HomepageNavBar";
 import HomepageSearchbar from './HomepageSearchbar';
 import pp1 from '../Images/pp1.png';
 import ceo from '../Images/CEO.png';
-import video from '../Images/video.png';
 import pp3 from '../Images/pp3.png';
 import PostPic from "./PostPic";
 import PostAudio from "./PostAudio";
-import dummyaudio from '../Images/dummyaudio.mp3';
-import AudioWave from "./AudioWave";
 
 const Homepage1 = () => {
-    // const profilepic = {pp1};
     const name = 'Mahnoor Maqsood';
     const city = 'Sargodha';
     const country ='Pakistan';
