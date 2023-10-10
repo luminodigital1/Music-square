@@ -24,7 +24,7 @@ const HomepageSearchbar = () => {
                   style={{borderColor: 'initial', boxShadow: 'none', color: '#889696', borderRadius: 0
                   }}
                     type="text"
-                    placeholder="Search"
+                    placeholder="Search..."
                     // onChange={handleSearch}
                 />
                 <div style={{height:30, width: 40}}>
