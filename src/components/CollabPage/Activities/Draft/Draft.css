@@ -1,0 +1,97 @@
+.draft__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  max-width: 65%;
+  margin: auto 0 auto auto;
+  border-radius: 5px;
+  margin-bottom: 1.3rem;
+}
+
+.draft__container .draft__header {
+  width: 100%;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcfff;
+  /* border: 1px solid #f5b1f5; */
+}
+
+.draft__container .draft__header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.draft__container .draft__header .logo div {
+  background-color: #ff66ff;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.draft__container .draft__header h3 {
+  font-family: "GilroyBold";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+.draft__container .draft__header .date {
+  font-family: "GilroyLight";
+  color: #717171;
+  font-size: 12px;
+  margin-bottom: 3px;
+
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.draft__container .draft__body {
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid #d4d4d4;
+}
+
+.draft__container .draft__body .message {
+  font-family: "GilroyLight";
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 0.5px;
+}
+
+.draft__container .draft__body hr {
+  background-color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.draft__container .draft__body .btns__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.draft__container .draft__body .btns__container button {
+  font-family: "GilroyLight";
+  border-radius: 4px;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #ffdca9;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+}

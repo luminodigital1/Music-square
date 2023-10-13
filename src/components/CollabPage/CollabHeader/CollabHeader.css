@@ -1,0 +1,60 @@
+.collab__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.collab__heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "GilroyBold";
+}
+
+.submit__button {
+  background-color: #ffe500;
+  /* padding: 12px 35px; */
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: "GilroyLight";
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  padding-top: 5px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.submit__draft__button {
+  margin-right: 25px;
+  background-color: transparent;
+  /* padding: 10px 40px; */
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  padding-top: 5px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  border-color: black;
+  font-weight: 500;
+  font-family: "GilroyLight";
+  /* margin-right: -730px; */
+}
+
+.submit__button h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.submit__draft__button h3 {
+  font-size: 16px;
+  font-weight: 500;
+}

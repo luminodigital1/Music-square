@@ -1,0 +1,19 @@
+.collab__container__main {
+  padding: 3rem;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.collab__container__main .collab__main {
+  display: flex;
+  gap: 2rem;
+  /* min-height: auto !important; */
+}
+
+.collab__container__main .collab__main .left__main {
+  flex: 0.7;
+}
+
+.collab__container__main .collab__main .right__main {
+  flex: 0.3;
+}

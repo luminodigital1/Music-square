@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import search from '../Images/search.png';
 import setting from '../Images/setting.png';
-import './HomepageSearchbar.css';
-import HomepageSearchbar from "./HomepageSearchbar";
+import '../components/Homepage1/Homepage1Seacrhbar/HomepageSearchbar.css';
+import HomepageSearchbar from "./Homepage1/Homepage1Seacrhbar/HomepageSearchbar";
 import './Homepage2Searchbar.css';
 
 const Homepage2Searchbar = () => {

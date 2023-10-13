@@ -3,6 +3,7 @@ import Profile from './Profile';
 import arrowRight from '../Images/arrow-right.png';
 import arrowLeft from '../Images/arrow-left.png';
 import './ProfileList.css';
+import ProfileDisplay from '../components/LandingPage/Profiles/ProfileDisplay';
 
 const ProfileList = ({ imageUrl }) => {
   const [position, setPosition] = useState(0);
@@ -16,11 +17,11 @@ const ProfileList = ({ imageUrl }) => {
   };
 
   const data = [
-    <Profile/>,
-    <Profile/>,
-    <Profile/>,
-    <Profile/>,
-    <Profile/>
+    <ProfileDisplay/>,
+    <ProfileDisplay/>,
+    <ProfileDisplay/>,
+    <ProfileDisplay/>,
+    <ProfileDisplay/>
   ];
 
   return (
@@ -33,10 +34,10 @@ const ProfileList = ({ imageUrl }) => {
     <div className="container">
     <div className="row horizontal-scroll-container horizontal-scroll" 
     style={{ transform: `translateX(${position * -100}%)` }}>
-            <Profile/>
-            <Profile/>
-            <Profile/>
-            <Profile/>
+            <ProfileDisplay/>,
+            <ProfileDisplay/>,
+            <ProfileDisplay/>,
+            {/* <ProfileDisplay/> */}
             </div>
           </div>
        

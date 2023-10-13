@@ -1,0 +1,72 @@
+.afc-title{
+    font-family: 'GilroyBold';
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.addcircle{
+    margin-left: 15px;
+}
+
+.custom-ofr{
+    font-family: 'GilroyLight';
+    font-size: 12px;
+}
+
+.custom-ofr:focus{
+    border: none;
+}
+
+.msg{
+    height: 200px;
+    /* border: 1px solid grey; */
+    /* border-color: #717171; */
+    width: 100%;
+    outline: none;
+    /* text-align: left; */
+    /* flex-direction: column; */
+    vertical-align: top;
+    /* border-radius: 4px; */
+}
+
+.msg{
+    
+}
+
+.msg::placeholder{
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+}
+
+.addfilediv{
+    background-color: #EFEFF0;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+}
+
+.addfiletxt{
+    font-family: 'GilroyLight';
+    font-size: 12px;
+    color: #717171;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.applyBtn1{
+    border: none;
+    border-radius: 4px;
+    font-family: 'GilroyLight';
+    height: 40px;
+    font-size: 16px;
+    /* width: 100px; */
+    background-color: #fee500;
+    padding: 10px;
+    /* margin-left: 30px; */
+    /* margin-right: -20px !important; */
+    /* justify-content: right; */
+}

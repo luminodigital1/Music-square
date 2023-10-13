@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../HomeScreen/Navbar.css';
+import '../components/LandingPage/LandingPageNavbar/Navbar.css';
 import logo from '../Images/logo.png';
 import sms from '../Images/sms.png';
 import notification from '../Images/notification.png'; 

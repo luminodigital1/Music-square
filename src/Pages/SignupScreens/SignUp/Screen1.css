@@ -1,0 +1,146 @@
+body{
+  overflow-x: hidden;
+}
+p + p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.container-full{
+    display: flex;
+    height: 100%;
+    
+
+}
+
+.containerLeft {
+  height: 100%;
+  padding-bottom: 30px;
+    background-color: #fee500;
+    /* justify-items: center;
+    justify-content: center; */
+    /* width: 90vh; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* height: 200vh; */
+  }
+
+  .hignlight1 {
+    /* font-size: 50px;   */
+    padding-top: 60px;
+    /* justify-content: center;
+    justify-items: center; */
+    /* text-align: justify; */
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    /* justify-content: left; */
+    /* text-align: center; */
+    font-family: 'GilroyBold';
+  }
+
+  .description1{
+    /* font-size: 20px;  
+    margin-left: 80px;
+    margin-right: 80px; */
+    /* font-weight: 100; */
+    font-family: 'GilroyLight';
+  }
+
+  .step{
+     font-size: 16px;  
+     margin-left: 80px;
+     /* margin-right: 80px; */
+     font-weight: bold;
+     margin-top: 100px;
+  }
+
+  .stepDescription{
+    font-size: 30px;  
+    margin-left: 80px;
+  }
+
+  .line-container {
+    display: flex;
+    /* justify-content: space-between; Distribute space between the lines */
+    margin-left: 60px;
+    /* margin-right: 60px; */
+    margin-top: 40px;
+  }
+  
+  .horizontal-line {
+    width: 75px;
+    height: 2px;
+    background-color: white; /* Set line color */
+    margin-right: 10px; /* Add space between lines */
+  }
+
+  .containerRight{
+    /* margin-left: 300px; */
+    /* padding: 0 6%; */
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    /* margin-left: 190px; */
+    border-radius: 4;
+  }
+  
+  .google-button, .wallet-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* border: none; */
+    border-radius: 4px;
+    align-items: center;
+    border-color: #ccc;
+    width: 400px;
+    text-align: center;
+    font-family: 'GilroyLight';
+  }
+  
+  .google-button {
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  
+  .wallet-button {
+    background-color: blue; /* Green */
+    color: white;
+    border: none;
+  }
+  
+  /* .svg-inline--fa {
+    margin-right: 10px; /* Adjust the spacing between the icon and text 
+  } */
+
+  .line-container2 {
+    display: flex;
+  align-items: center;
+  /* margin-left: 190px; */
+  margin-top: 30px;
+  width: 400px;
+  margin-bottom: 0;
+  margin-top: 0;
+  }
+  
+  .horizontal-line2 {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc; /* Set line color */
+    margin: 0 10px; /* Add space between lines and OR text */
+  }
+
+  .or-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0 10px; /* Add space between text and lines */
+    color: #ccc;
+    font-family: 'GilroyLight';
+    margin-top: 8px;
+  }
+
+  .sc1{
+    overflow-x: hidden;
+  }

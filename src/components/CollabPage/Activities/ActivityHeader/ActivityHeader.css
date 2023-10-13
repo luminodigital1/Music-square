@@ -1,0 +1,35 @@
+.activity__header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity__header__container h1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "GilroyBold";
+  color: #000;
+}
+
+.activity__header__container .right__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.activity__header__container .right__container p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "GilroyLight";
+  color: #717171;
+}
+
+.activity__header__container .right__container svg {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "GilroyLight";
+  cursor: pointer;
+  color: #717171;
+}

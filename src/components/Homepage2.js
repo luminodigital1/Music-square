@@ -5,7 +5,7 @@ import product1 from '../Images/Product1.png';
 import product2 from '../Images/Product2.png';
 import Homepage2Searchbar from "./Homepage2Searchbar";
 import Homepage2NavBar from "./Homepage2NavBar";
-import ProfileDisplay from "./ProfileDisplay";
+import ProfileDisplay from "../components/LandingPage/Profiles/ProfileDisplay";
 
 const Homepage2 = () => {
   const [position, setPosition] = useState(0);
