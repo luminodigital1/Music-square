@@ -63,7 +63,8 @@ function HomepageNavBar() {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav">
           <li>
-              <a className="nav-link navbar-nav me-3" href="#" style={{marginLeft: 100}}>Find Artists</a>
+          <Link className="nav-link navbar-nav me-3" to="/homepage2" style={{marginLeft: 100}}>Find Artists</Link>
+              {/* <a className="nav-link navbar-nav me-3" href="#" style={{marginLeft: 100}}>Find Artists</a> */}
             </li>
             <li>
               <a className="nav-link navbar-nav me-3" href="#">Find Job <span className="sr-only"></span></a>

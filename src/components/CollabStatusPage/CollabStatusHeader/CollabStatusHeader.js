@@ -21,7 +21,7 @@ const CollabStatusHeader = () => {
       </div>
 
       <Popup trigger={
-        <div className="submit__button" >
+        <div className="submit__button">
         <h3>Submit Collab</h3>
       </div>
       } modal
