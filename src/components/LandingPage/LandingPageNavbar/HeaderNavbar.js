@@ -38,7 +38,8 @@ function Navbar() {
               <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("How it works")}>How it works <span className="sr-only"></span></a>
             </li>
             <li className={`nav-item ${activeNavItem === "Login" ? "active-nav-item" : ""}`}>
-              <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("Login")}>Login</a>
+             <Link className="nav-link" to="/profile" onClick={() => handleNavItemClick("Login")}>Login</Link>
+              {/* <a className="nav-link navbar-nav me-3" href="#" onClick={() => handleNavItemClick("Login")}>Login</a> */}
             </li>
             <li className={`nav-item ${activeNavItem === "Sign Up" ? "active-nav-item" : ""}`}>
               <Link className="nav-link" to="/signup" onClick={() => handleNavItemClick("Sign Up")}>Sign Up</Link>
