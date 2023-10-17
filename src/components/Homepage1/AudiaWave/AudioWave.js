@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
 import WaveSurfer from 'wavesurfer.js'
 import { FaPlayCircle, FaPauseCircle } from 'react-icons/fa'
+import play from '../../../Images/play.png';
 import styled from 'styled-components'
 import volumebtn from '../../../Images/volume.png'
 import './AudioWave.css'
@@ -29,11 +30,11 @@ const AudioWave = ({ audio }) => {
     setVolume(newVolume);
   };
 
+  const [isPlaying, toggleIsPlaying] = useState(false)
   const containerRef = useRef()
   const waveSurferRef = useRef({
     isPlaying: () => false,
   })
-  const [isPlaying, toggleIsPlaying] = useState(false)
 
   useEffect(() => {
     const waveSurfer = WaveSurfer.create({

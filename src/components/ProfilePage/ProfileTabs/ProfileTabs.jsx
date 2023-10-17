@@ -50,7 +50,7 @@ const ProfileTabs = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <p>My Posts</p>
+          <p className="mt-3">My Posts</p>
         </div>
         <hr className="vertical__line" />
         <div
@@ -95,7 +95,7 @@ const ProfileTabs = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <p>My Music</p>
+          <p className="mt-3">My Music</p>
         </div>
         <hr className="vertical__line" />
         <div
@@ -133,7 +133,7 @@ const ProfileTabs = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <p>My Collabs</p>
+          <p className="mt-3">My Collabs</p>
         </div>
       </div>
       {/* <hr

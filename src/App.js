@@ -15,6 +15,7 @@ import CollabStatusDs from './Pages/CollabStatusDs/CollabStatusDs';
 import CollabStatusCs from './Pages/CollabStatusCs/CollabStatusCs';
 import Profile from "./Pages/Profile/Profile";
 import CollabCompleted from "./Pages/CollabCompleted/CollabCompleted";
+import PostCollab from './Pages/PostCollab/PostCollab';
 
 function App() {
   return(
@@ -35,6 +36,7 @@ function App() {
         <Route path="/collabstatuscs" element={<CollabStatusCs/>} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/collabcompleted" element={<CollabCompleted/>} />
+        <Route path="/postcollab" element={<PostCollab/>} />
       </Routes>
     </Router>
   );

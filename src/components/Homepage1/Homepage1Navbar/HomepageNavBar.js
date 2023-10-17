@@ -57,7 +57,7 @@ function HomepageNavBar() {
 
     //with bootstrap
     return(
-    <div className=" my-1 fw-bold border border-gray-400 mb-5">
+    <div className=" fw-bold border border-gray-400 mb-5">
       <nav className="navbar navbar-expand-lg navbar-light bg-light mx-5 bg-transparent">
         <img src={logo} alt="Your Logo" width="150" height="50" />
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -73,11 +73,12 @@ function HomepageNavBar() {
               <a className="nav-link navbar-nav me-3" href="#">Post Job</a>
             </li>
             <li>
-              <Link className="nav-link" to="/findcollab" onClick={() => handleNavItemClick("Find Collabs")}>Find Collabs</Link>
+              <Link className="nav-link navbar-nav me-3" to="/findcollab" onClick={() => handleNavItemClick("Find Collabs")}>Find Collabs</Link>
               {/* <a className="nav-link navbar-nav me-3" href="#">Find Collabs <span className="sr-only"></span></a> */}
             </li>
             <li>
-              <a className="nav-link navbar-nav me-3" href="#">Post Collabs</a>
+            <Link className="nav-link navbar-nav me-3" to="/postcollab">Post Collabs</Link>
+              {/* <a className="nav-link navbar-nav me-3" href="#">Post Collabs</a> */}
             </li>
             <li>
               <Link className="nav-link" to="">How it works</Link>

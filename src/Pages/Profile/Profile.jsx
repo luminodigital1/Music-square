@@ -30,13 +30,18 @@
 
 // =============
 
+import CollabHeader from "../../components/CollabPage/CollabHeader/CollabHeader";
+import CollabStatusPageHeader from "../../components/CollabStatusPage/CollabStatusPageHeader/CollabStatusPageHeader";
 import ProfileDetails from "../../components/ProfilePage/ProfileDetails/ProfileDetails";
 import ProfileTabs from "../../components/ProfilePage/ProfileTabs/ProfileTabs";
 import "./Profile.css";
+import HomepageNavBar from "../../components/Homepage1/Homepage1Navbar/HomepageNavBar";
 
 const Profile = () => {
   return (
-    <div className="profile__container__main">
+    <div>
+        <HomepageNavBar />
+    <div className="profile__container__main" style={{marginTop: -50}}>      
       {/* Profile Main */}
       <div className="profile__main">
         {/* Cover Photo Container */}
@@ -53,6 +58,7 @@ const Profile = () => {
 
       {/* Something Else */}
       <div className="something__else"></div>
+    </div>
     </div>
   );
 };

@@ -15,9 +15,9 @@ class PlayPauseButton extends Component {
 
     // Call the play/pause method of Wavesurfer.js based on the isPlaying state
     if (this.state.isPlaying) {
-      this.props.wavesurfer.pause();
-    } else {
       this.props.wavesurfer.play();
+    } else {
+      this.props.wavesurfer.pause();
     }
   };
 

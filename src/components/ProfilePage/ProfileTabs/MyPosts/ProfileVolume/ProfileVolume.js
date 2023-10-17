@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect } from "react";
-import "./MyCollabVolume.css";
+import "../../MyCollabs/MyCollabVolume/MyCollabVolume.css";
 import { AiOutlinePause } from "react-icons/ai";
 import {AudioVisualizer} from "react-audio-visualize";
 import play from '../../../../../Images/play.png';
 
-const MyCollabVolume = () => {
+const ProfileVolume = () => {
   const audioRef = useRef(null);
   const [blob, setBlob] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -67,10 +67,6 @@ const MyCollabVolume = () => {
   return (
     <>
       <div className="mycollabvolume__container">
-        <div className="content">
-          <h1>You Are My Everything</h1>
-          <p>Sean Kim, Asad Ali, Mahnoor Ali and 2 others</p>
-        </div>
         <div className="volume__container">
           <div className="top__container">
             <div className="left__container" onClick={handleVolumeClick}>
@@ -96,9 +92,6 @@ const MyCollabVolume = () => {
             </div>
           </div>
           <div className="bottom__container">
-            <div className="left__container">
-              <span>01:23</span>/ <span>2:35</span>
-            </div>
             <div className="right__container">
               <img src="/profile/shared__volume-low.png" alt="logo" />
               <div className="volume-container">
@@ -113,16 +106,9 @@ const MyCollabVolume = () => {
           </div>
         </div>
       </div>
-      {/* <div className="volume__description">
-        <p>
-          Description Goes here. This is just a simple description or the
-          caption you put under the post to describe the post. There is no need
-          to read it completely; you can stop now.
-        </p>
-      </div> */}
       <audio ref={audioRef} src="/profile/sample.ogg" preload="auto" />
     </>
   );
 };
 
-export default MyCollabVolume;
+export default ProfileVolume;
