@@ -1,0 +1,32 @@
+.info-cont{
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 120%;
+}
+
+.bi-title{
+    font-size: 16px;
+    font-family: 'GilroyBold';
+    margin-bottom: 0;
+
+}
+
+.bi-desp{
+    font-size: 12px;
+    color: #717171;
+    font-family: 'GilroyLight';
+}
+
+.bi-label{
+    color: #717171;
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    margin-top: 15px;
+}
+
+.set-hg{
+    height: 36px;
+}

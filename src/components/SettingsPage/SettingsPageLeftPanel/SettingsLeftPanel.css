@@ -1,0 +1,14 @@
+.settings-container{
+    /* background-color: white; */
+    font-family: 'GilroyLight';
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.active-tab {
+    background-color: black;
+    color: white;
+  }

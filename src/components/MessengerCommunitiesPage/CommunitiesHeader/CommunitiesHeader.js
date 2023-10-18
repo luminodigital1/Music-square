@@ -4,8 +4,14 @@ import call from '../../../Images/call.png';
 import videocall from '../../../Images/video-call.png';
 import search from '../../../Images/search.png';
 import settings from '../../../Images/setting-2.png';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function CommunitiesHeader() {
+  const navigate = useNavigate();
+
+  const navigateToSettings = () => {
+    navigate('/settings'); // Navigate to the About page
+  };
   return (
     <div className="d-flex p-2" style={{backgroundColor: 'white'}}>
       <img className="circular-pp" src={pp} alt ="" height="50px" width="50px" style={{marginTop: 8}} />
@@ -27,7 +33,7 @@ function CommunitiesHeader() {
             <img src={search} alt ="" height="20px" width="20px"/>
         </div>
         <div className="">
-            <img src={settings} alt ="" height="20px" width="20px"/>
+            <img src={settings} alt ="" height="20px" width="20px" onClick={navigateToSettings} />
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@ import CollabCompleted from "./Pages/CollabCompleted/CollabCompleted";
 import PostCollab from './Pages/PostCollab/PostCollab';
 import Chats from './Pages/MessengerScreen-Chats/Chats';
 import Communities from './Pages/MessengerScreen-Communities/Communities';
+import Settings from './Pages/Settings/Settings';
 
 function App() {
   return(
@@ -41,6 +42,7 @@ function App() {
         <Route path="/postcollab" element={<PostCollab/>} />
         <Route path="/chats" element={<Chats/>} />
         <Route path="/communities" element={<Communities/>} />
+        <Route path="/settings" element={<Settings/>} />
       </Routes>
     </Router>
   );
