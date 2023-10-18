@@ -1,3 +1,48 @@
 .upload-container{
     background-color: white;
+    padding: 10px;
+}
+
+.upload-div{
+    border: 1px dashed #ccc;
+}
+
+.click-txt{
+    margin-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+
+.upload{
+    font-size: 14px;
+    color: #fee500;
+    font-family: 'GilroyLight';
+    margin-right: 5px;
+}
+
+.dragdrop{
+    font-size: 14px;
+    font-family: 'GilroyLight';
+    padding-top: -10px;
+    color: gray;
+}
+
+.upload-img{
+    font-size: 16px;
+    font-family: 'GilroyBold';
+}
+
+.optional{
+    font-size: 16px;
+    font-family: 'GilroyLight';
+    color: gray;
+    margin-left: 5px;
+}
+
+.enhnc-desp{
+    color: gray;
+    font-size: 12px;
+    font-family: 'GilroyLight';
 }

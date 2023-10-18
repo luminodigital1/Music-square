@@ -1,0 +1,23 @@
+.team-table{
+    
+}
+
+.table-heading{
+    font-size: 14px;
+    font-family: 'GilroyBold';
+}
+
+.table-data{
+    font-size: 12px;
+    font-family: 'GilroyLight';
+}
+
+.add-btn{
+    border: 0;
+    border-radius: 4%;
+    background-color: #fee500;
+    font-size: 10px;
+    font-family: 'GilroyLight';
+    height: 30px;
+    width: 80px;
+}

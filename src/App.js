@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Screen1 from './Pages/SignupScreens/SignUp/Screen1';
 import Screen2 from './Pages/SignupScreens/EmailVerification/Screen2';
 import ProfileSetup from './Pages/SignupScreens/ProfileSetup1/ProfileSetup';
@@ -16,6 +16,8 @@ import CollabStatusCs from './Pages/CollabStatusCs/CollabStatusCs';
 import Profile from "./Pages/Profile/Profile";
 import CollabCompleted from "./Pages/CollabCompleted/CollabCompleted";
 import PostCollab from './Pages/PostCollab/PostCollab';
+import Chats from './Pages/MessengerScreen-Chats/Chats';
+import Communities from './Pages/MessengerScreen-Communities/Communities';
 
 function App() {
   return(
@@ -37,6 +39,8 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/collabcompleted" element={<CollabCompleted/>} />
         <Route path="/postcollab" element={<PostCollab/>} />
+        <Route path="/chats" element={<Chats/>} />
+        <Route path="/communities" element={<Communities/>} />
       </Routes>
     </Router>
   );

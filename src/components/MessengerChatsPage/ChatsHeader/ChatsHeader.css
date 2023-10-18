@@ -1,0 +1,21 @@
+.circular-pp{
+    border-radius: 50%;
+}
+
+.p-desp{
+    font-size: 16px;
+    font-family: 'GilroyBold';
+    margin-bottom: 0;
+}
+
+.-status{
+    color: #717171;
+    font-size: 13px;
+    font-family: 'GilroyLight';
+}
+
+.icons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
