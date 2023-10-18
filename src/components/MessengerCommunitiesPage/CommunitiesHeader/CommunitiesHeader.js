@@ -17,7 +17,7 @@ function CommunitiesHeader() {
         </div>
       </div>
       <div className="d-flex offset-md-5 icons-div">
-        <div className="" style={{marginRight: 20, marginLeft: 100}}>
+        <div className="" style={{marginRight: 20, marginLeft: 150}}>
             <img src={videocall} alt ="" height="20px" width="20px"/>
         </div>
         <div className="" style={{marginRight: 20}}>
