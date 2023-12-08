@@ -1,0 +1,19 @@
+.entity-head{
+    font-size: 20px;
+    font-family: 'GilroyBold';
+    color: black;
+}
+
+.entity-time{
+    color: #889696;
+    font-family: 'GilroyLight';
+    font-size: 12px;
+    margin-top: -40px;
+    /* margin-left: 10px; */
+}
+
+.entity-desp{
+    color: #717171;
+    font-size: 14px;
+    font-family: 'GilroyLight';
+}

@@ -1,0 +1,21 @@
+.cell-left{
+    font-family: 'GilroyBold';
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.cell-right{
+    text-align: right;
+    color: #889696;
+    font-size: 12px;
+    font-family: 'GilroyLight';
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.ht-cont{
+    margin-left: -40px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
