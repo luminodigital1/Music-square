@@ -14,7 +14,7 @@ function Settings() {
   return (
     <div className="chats">
       <HomepageNavBar/>
-      <SettingsHeader/>
+      <SettingsHeader heading='Profile SETTING' />
       <div className="d-flex" style={{backgroundColor:'#D9D9D9', marginTop: 10}}>
         <SettingsLeftPanel/>
         <div>

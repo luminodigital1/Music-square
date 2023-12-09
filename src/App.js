@@ -21,6 +21,8 @@ import Communities from './Pages/MessengerScreen-Communities/Communities';
 import Settings from './Pages/Settings/Settings';
 import CommunityForum from './Pages/CommunityForum/CommunityForum';
 import ForumPost from './Pages/ForumPostOpen/ForumPost';
+import NotificationSetting from './components/NotificationSettingPage/NotificationSetting';
+import NotifSettingPage from './Pages/NotificationsSetting/NotificationsSetting';
 // import ForumPost from './Pages/ForumPost/ForumPost';
 
 function App() {
@@ -49,6 +51,7 @@ function App() {
         <Route path="/settings" element={<Settings/>} />
         <Route path="/communityforum" element={<CommunityForum/>} />
         <Route path="/forumpost" element={<ForumPost/>} />
+        <Route path="/notificationsetting" element={<NotifSettingPage/>} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,32 @@
+.notificationSettingContainer{
+    background-color: white;
+}
+
+.notf-title{
+    font-size: 16px;
+    font-family: 'GilroyBold';
+    margin-bottom: 0;
+}
+
+.notf-desp{
+    font-size: 12px;
+    font-family: 'GilroyLight';
+    color: grey;
+}
+
+.togglebtn {
+    background-color: yellow;
+    border-color: yellow;
+  }
+
+  .toogleEleTitle{
+    font-size: 14px;
+    font-family: 'GilroyBold';
+  }
+  
+  .Form.Check {
+    border-color: #fee500;
+    background-color: #fee500;
+  }
+  
+  
