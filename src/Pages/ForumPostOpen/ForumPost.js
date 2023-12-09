@@ -9,6 +9,9 @@ import Searchbar from '../../components/CommunityForumPage/SearchBar/Searchbar';
 import StartDiscussion from '../../components/CommunityForumPage/StartDiscussion/StartDiscussion';
 import HotTopics from '../../components/CommunityForumPage/StartDiscussion/HotTopics/HotTopics';
 import ForumPostOpen from '../../components/ForumPostOpenPage/ForumPostOpen';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function ForumPost() {
   return (
@@ -16,21 +19,20 @@ function ForumPost() {
       <CollabStatusPageHeader />
       <div style={{width: '100%', height: '1px', backgroundColor: '#ccc', marginBottom: 30}}></div>
         <Searchbar/>
-      <div className="d-flex" style={{backgroundColor:'#f2f2f2', marginTop: 10}}>
+      {/* <div className="d-flex" style={{backgroundColor:'#f2f2f2', marginTop: 10}}>
         <Forum/>
         <div>
             <ForumPostOpen/>
-            {/* <BasicInfo/>
-            <EmailAndWalletConnect/>
-            <AboutMe/>
-            <Skills/>
-            <Languages/>
-            <Socials/> */}
         </div>
         <div className="">
             <HotTopics/>
         </div>
-      </div>
+      </div> */}
+      <Row style={{backgroundColor:'#f2f2f2', marginTop: 10}}>
+        <Col> <Forum/> </Col>
+        <Col xs={8}> <ForumPostOpen/> </Col>
+        <Col> <HotTopics/> </Col>
+      </Row>
     </div>
   );
 }
